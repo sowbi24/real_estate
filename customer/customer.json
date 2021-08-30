@@ -1,0 +1,52 @@
+{
+ "autoname": "format:{customername}",
+ "creation": "2021-08-25 19:18:14.170327",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customername",
+  "mobileno",
+  "emailid"
+ ],
+ "fields": [
+  {
+   "fieldname": "customername",
+   "fieldtype": "Data",
+   "label": "Customername"
+  },
+  {
+   "fieldname": "mobileno",
+   "fieldtype": "Data",
+   "label": "Mobileno"
+  },
+  {
+   "fieldname": "emailid",
+   "fieldtype": "Data",
+   "label": "EmailId"
+  }
+ ],
+ "modified": "2021-08-26 18:20:45.430711",
+ "modified_by": "Administrator",
+ "module": "Real Estate Management",
+ "name": "Customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

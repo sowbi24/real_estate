@@ -1,0 +1,54 @@
+{
+ "autoname": "format:{sitename}",
+ "creation": "2021-08-25 19:14:54.958460",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "projectname",
+  "sitename",
+  "siteprice"
+ ],
+ "fields": [
+  {
+   "fieldname": "projectname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Projectname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sitename",
+   "fieldtype": "Data",
+   "label": "Sitename"
+  },
+  {
+   "fieldname": "siteprice",
+   "fieldtype": "Currency",
+   "label": "Siteprice"
+  }
+ ],
+ "modified": "2021-08-26 18:19:16.751994",
+ "modified_by": "Administrator",
+ "module": "Real Estate Management",
+ "name": "Project",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

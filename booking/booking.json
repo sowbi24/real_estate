@@ -1,0 +1,77 @@
+{
+ "autoname": "format:{customername}-{sitename}",
+ "creation": "2021-08-26 10:10:36.410487",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sitename",
+  "customername",
+  "siteprice",
+  "amountpaid",
+  "amountbalance",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "sitename",
+   "fieldtype": "Link",
+   "label": "Sitename",
+   "options": "Project"
+  },
+  {
+   "fieldname": "customername",
+   "fieldtype": "Link",
+   "label": "Customername",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "sitename.siteprice",
+   "fieldname": "siteprice",
+   "fieldtype": "Currency",
+   "label": "Siteprice"
+  },
+  {
+   "fieldname": "amountpaid",
+   "fieldtype": "Currency",
+   "label": "Amountpaid"
+  },
+  {
+   "fieldname": "amountbalance",
+   "fieldtype": "Currency",
+   "label": "Amountbalance"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Booking",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "modified": "2021-08-26 18:21:56.429897",
+ "modified_by": "Administrator",
+ "module": "Real Estate Management",
+ "name": "Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
